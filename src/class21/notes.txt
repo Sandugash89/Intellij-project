@@ -1,0 +1,36 @@
+Overloading:
+    When same name method is existing in class multiple time with
+    different number of parameters or different sequence or different data types
+    is called method overloading
+Benefit of overloading:
+    Cleanliness of code;
+    Flexible code;
+    Easy for end user;
+Rules:
+   1) Access modifiers (public, private, default, protected) do not play any role in method overloading
+   2) Non-access modifiers (static, final etc) do not play any role in method overloading
+   3) Method return types also do not play any role in method overloading, we can not overload
+    a method by changing the return type.
+   4) A name of method must be same if we want to overload a method.
+   5) Parameters should be different for each method either n number or in sequence or in data types
+   6) we can overload a constructors, private methods, main methods
+================================================================================================================
+Overriding:
+    Overriding happens when same methods exists in parent and child classes
+Benefits of overriding:
+    We can have specific implementation for a method that is already defined in the
+    Parent class. That we have this Flexibility that we dont have to come up
+    with different names if we are doing same thing again in the child classes.
+Rules:
+    1) We can change the access modifier in child class but we we can make it only less restrictive.
+    For example: we can change protected of default to public but we can not change
+    from public to private or protected or default.
+    2) Static method have same as access modifier rules but we use a different terminology
+    we say we are re -declaring a method instead of overriding.
+    3) return type must be same in overriding
+    4) The name must be same
+    5) Parameters also must be same
+    6) we can not override a private method/fields or constructor because they don't participate in inheritance
+    7) main method can also can not override  but can be re-declaring
+
+

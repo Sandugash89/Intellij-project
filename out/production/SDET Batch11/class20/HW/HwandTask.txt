@@ -1,0 +1,27 @@
+1) Create 1 class in which create a methods that will calculate the area (volume in case of box) of
+Rectangle
+Square
+Box
+Use separate class to test your code
+
+2) Create a class named 'Programming'.
+While creating an object of the class, if nothing is passed to it,
+the message "I love programming languages" should be printed.
+If some String is passed to it, then in place of "programming languages" the value variable should be printed.
+Example, if we pass "Java", then "I love Java" should be printed.
+3) Create 1 class with a static method that has 3 overloaded forms.
+Then call each overloaded method with specific arguments and observe result.
+ 1 class with a private method that has 3 overloaded forms.
+Then call each overloaded method with specific arguments and observe result.
+
+
+Asghar  15:01
+1) Create a class 'Degree' having a method 'getPrerequisite'
+that prints ""To get a degree you need high school diploma"".
+Class 'Degree' has 2 subclasses namely 'Bachelors' and Masters’.
+In Masters class override method 'getPrerequisite'.
+Call the method by creating an object of each of the three classes.
+2) Create a class CreditCard and define variable balance and interest.
+* Create an instance method that will calculate interest based on the given balance.
+* Create 2 subclasses: Visa and AX. In AX class override method calculate interest.
+Call the method by creating an object of each of the three classes.
