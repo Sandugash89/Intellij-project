@@ -12,17 +12,20 @@ interface Employee {
 interface SyntaxEmployees extends Employee, Person{
     void teach();
 }
-class SDETinstructor implements SyntaxEmployees{
-    public void eat(){
+class SDETinstructor implements SyntaxEmployees {
+    public void eat() {
         System.out.println("Syntax Employees eating");
     }
-   public  void sleep(){
+
+    public void sleep() {
         System.out.println("Syntax Employee eating");
     }
-    public void work(){
+
+    public void work() {
         System.out.println("Creating new repl");
     }
-   public void teach(){
-       System.out.println("Syntax Employee sleeping");
-   }
+
+    public void teach() {
+        System.out.println("Syntax Employee sleeping");
+    }
 }
